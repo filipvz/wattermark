@@ -26,7 +26,7 @@ if učitana_datoteka:
 
     
      try:
-          font=ImageFont.truetype("Arial.ttf",80)
+          font=ImageFont.truetype("arial.ttf",80)
      except:
           font=ImageFont.load_default()
      lijevo,gore,desno,dolje=crtaj.textbbox((0,0),korisnikov_tekst,font=font)
@@ -55,3 +55,4 @@ if učitana_datoteka:
     st.write("Thanx for using our app!")
 
     
+
